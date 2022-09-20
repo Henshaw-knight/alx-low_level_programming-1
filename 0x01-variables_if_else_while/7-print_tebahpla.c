@@ -1,9 +1,9 @@
-#include <std.io>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: 'Program that prints the expected word in the exact way'
+ * Description: 'Program that prints the lowercase alphabet in reverse'
  *
  * Return: Always 0 (Success)
  */
