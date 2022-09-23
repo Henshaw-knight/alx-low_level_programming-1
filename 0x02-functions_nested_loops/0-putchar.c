@@ -7,6 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
+int _putchar(char c); /* 'c' is a character */
 int main(void)
 {
 	_putchar('_');
