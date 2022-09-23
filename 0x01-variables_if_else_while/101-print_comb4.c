@@ -18,14 +18,14 @@ int main(void)
 		{
 			for (k = j + 1; k <= '9'; k++)
 			{
-				if ((j != i) != k)
+				if (i < j && j < k)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
 
 					if (i == '7' && j == '8')
-						continue;
+						break;
 
 					putchar(',');
 					putchar(' ');
