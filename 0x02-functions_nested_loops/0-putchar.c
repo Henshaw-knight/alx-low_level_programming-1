@@ -3,7 +3,7 @@
 /**
  * main - where code execution starts
  *
- * _putchar - prints char c to stdout
+ * _putchar: prints char c to stdout
  *
  * @c: character printed
  *
