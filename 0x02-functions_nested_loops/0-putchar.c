@@ -3,13 +3,10 @@
 /**
  * main - where code execution starts
  *
- * @_putchar: prints char c to stdout
- *
- * @c: character printed
+ * Description - 'Function that prints _putchar, with a new line'
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c); /* 'c' is a character */
 int main(void)
 {
 	_putchar('_');
