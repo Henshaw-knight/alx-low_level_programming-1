@@ -3,7 +3,9 @@
 /**
  * main - where code execution starts
  *
- * Description: function to print _putchar. 'c' is each character
+ * _putchar - prints char c to stdout
+ *
+ * @c: character printed
  *
  * Return: Always 0 (Success)
  */
