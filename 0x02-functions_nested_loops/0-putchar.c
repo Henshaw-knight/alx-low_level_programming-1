@@ -3,7 +3,7 @@
 /**
  * main - where code execution starts
  *
- * Description: 'funciton to print _putchar and a new line'
+ * Description: 'function to print _putchar and a new line. c is each character'
  *
  * Return: Always 0 (Success)
  */
