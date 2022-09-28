@@ -3,7 +3,6 @@
 /**
  * print_square - funtion that prints a square
  * @size: the size of the square
- *
  * Return: Nothing
  */
 void print_square(int size)
