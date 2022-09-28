@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-void main()
+int main(void)
 {
 	int i;
 
@@ -26,9 +26,10 @@ void main()
 			else
 				printf("Buzz ");
 		}
-		
 		else
 			printf("%i ", i);
 	}
 	printf('\n');
+
+	return (0);
 }
