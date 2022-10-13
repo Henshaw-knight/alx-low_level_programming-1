@@ -17,10 +17,10 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < index; i++)
 	{
-		printf(a[i]);
-		printf(',');
-		printf(' ');
+		printf("%d", a[i]);
+		printf(",");
+		printf(" ");
 	}
-	printf(a[index]);
-	printf('\n');
+	printf("%d", a[index]);
+	printf("\n");
 }
