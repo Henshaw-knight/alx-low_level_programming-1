@@ -19,15 +19,10 @@ void rev_string(char *s)
 
 	index = len - 1;
 
-	while (i < len)
+	for (i = 0; i < len / 2; i++)
 	{
 		tmp = s[i];
 		s[i] = s[index];
-		s[index] = tmp;
-
-		i++;
-		index--;
+		s[index--] = tmp;
 	}
 }
-
-
