@@ -10,24 +10,14 @@
  */
 void print_array(int *a, int n)
 {
-	int index;
 	int i;
 
-	index = n - 1;
-
-	if (n > 0)
+	for (i = 0; i < n; i++)
 	{
-		for (i = 0; i < index; i++)
-		{
+		if (i == 0)
 			printf("%d", a[i]);
-			printf(",");
-			printf(" ");
-		}
-		printf("%d", a[index]);
-	}
-	else if (n == 0)
-	{
-		printf("%d", a[0]);
+		else
+			printf(", %d", a[i]);
 	}
 	printf("\n");
 }
